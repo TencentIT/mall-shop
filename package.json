@@ -1,25 +1,50 @@
 {
-  "name": "openshoping-node",
-  "version": "1.0.0",
-  "description": "orangeWeb",
-  "main": "index.js",
+  "name": "shop-vue",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "start"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "analyz": "vue-cli-service build --mode analyz",
+    "lint": "vue-cli-service lint"
   },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "keywords": [
-    "orange"
-  ],
-  "author": "DEMO",
-  "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
   "dependencies": {
-    "express": "^4.16.3"
-  }
+    "axios": "^0.18.0",
+    "vant": "^1.3.1",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.3",
+    "@vue/cli-plugin-eslint": "^3.0.3",
+    "@vue/cli-service": "^3.0.3",
+    "babel-plugin-import": "^1.8.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "vue-lazyload": "^1.2.6",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "Android >= 4.0",
+    "iOS >= 7"
+  ]
 }
