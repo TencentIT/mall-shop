@@ -1,0 +1,25 @@
+{
+  "name": "openshoping-node",
+  "version": "1.0.0",
+  "description": "orangeWeb",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "orange"
+  ],
+  "author": "DEMO",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
